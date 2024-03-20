@@ -1,0 +1,62 @@
+body{
+    background: url("./the-boys-BG.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(5px);
+}
+
+
+h1{
+    color: white;
+    background:transparent;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    width: 1200px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+
+h3{
+    color: white;
+    font-size: xx-large;
+}
+
+
+.t{
+    display: flex;
+    justify-content: space-evenly;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.img1{
+    height: 150px;
+    width: 400px;
+}
+img{
+    height: 165px;
+    width: 135px;
+    border-radius: 40px 30px 40px 30px;
+    padding: 10px;
+}
+.name1{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name2{
+    color: rgb(1, 1, 117);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
